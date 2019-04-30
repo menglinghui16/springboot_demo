@@ -13,6 +13,6 @@ import org.springframework.stereotype.Component;
 public class MyApplicationRunner implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        System.out.println("当项目启动时运行MyApplicationRunner1");
+        System.out.println("当项目启动时运行MyApplicationRunner1 ");
     }
 }
